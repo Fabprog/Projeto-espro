@@ -1,0 +1,101 @@
+/* Definindo estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-image: url("../imagens/wallpaper_trabalho.jpg");
+    background-size: cover;
+    color: #fff;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(30, 30, 38);
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+    background-color: rgb(30, 30, 45);
+    margin: 0;
+    padding: 10px;
+}
+
+nav li {
+    display:inline-flex;
+    margin-right: 100px;
+    font-size: large;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para a seção de artigos */
+section {
+    max-width: 100% auto;
+    max-height: 100%;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+section h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+article {
+    padding: 20px;
+    background-color: #444;
+    border-radius: 10px;
+    margin: 50px;
+    max-width: 100%;
+    max-height: 50%;
+    text-align: center;
+}
+
+article h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+article p {
+    font-size: 16px;
+}
+
+/* Estilos para o rodapé */
+
+footer{
+    background-color: rgb(30, 30, 38);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+ 
+footer img{
+    width: auto;
+    height: 120px;
+}
+
+
+  

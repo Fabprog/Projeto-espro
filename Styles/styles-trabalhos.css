@@ -1,0 +1,58 @@
+header {
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(30, 30, 38);
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+    background-color: rgb(30, 30, 45);
+    margin: 0;
+    padding: 10px;
+}
+
+nav li {
+    display:inline-flex;
+    margin-right: 50px;
+    font-size: large;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    text-align: left;
+}
+
+body {
+    background-image: url(../imagens/wallpaper_trabalho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+[data-component="slideshow"] .slide {
+    display: none;
+    margin-top:5%;
+  }
+
+  [data-component="slideshow"] .slide.active {
+    display: inline-block;
+  }
+
+.slide img {
+    margin-top: 5%;
+    width: 50%;
+    border-radius: 5px;
+}
