@@ -1,7 +1,7 @@
 header {
     color: #fff;
     text-align: center;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;
@@ -53,6 +53,35 @@ body {
 
 .slide img {
     margin-top: 5%;
-    width: 50%;
+    width: 40%;
     border-radius: 5px;
+}
+
+.trabalho2 img{
+    margin-top: 5%;
+    display: inline-block;
+    height: 50%;
+    width: 38%;
+}
+
+@media screen and (max-width: 768px){
+    nav li {
+        display: inline;
+        margin: 5px;
+        font-size: large;
+    }
+    
+    .slide img {
+        margin-top: 60%;
+        width: 80%;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    .trabalho2 img {
+        overflow: scroll;
+        height: 10%;
+    }
+
 }

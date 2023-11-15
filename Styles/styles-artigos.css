@@ -73,3 +73,20 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media screen and (max-width: 768px){
+    nav li {
+        display: inline;
+        margin: 5px;
+        font-size: large;
+    }
+
+    article h2{
+        font-size: 22px;
+        margin: 5px;
+    }
+
+    section {
+        margin-top: 30%;
+    }
+}
